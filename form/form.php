@@ -7,7 +7,7 @@ if($_POST) {
   $correo = $_POST['email'];
   $mensaje = $_POST['reason'];
 
-  $destinatario = "cristadalbertperes74@gmail.com";
+  $destinatario = "mrgomez.dev@gmail.com";
   $asunto = "Mensaje enviado desde mi sitio web";
   $contenido = "Nombre: " . $nombre1 . "Apellido: " . $nombre2 . "Telefono: " . $contactNumber . "\nCorreo electrónico: " . $email . "\nMensaje: " . $reason;
 
