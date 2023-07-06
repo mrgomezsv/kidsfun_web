@@ -8,7 +8,7 @@ if ($_POST) {
 
   $destinatario = "sales@kidsfunyfiestasinfantiles.com";
   $asunto = "Mensaje enviado desde mi sitio web de Kidsfun y Fiestas Infantiles";
-  $contenido = "Nombre: " . $nombre1 . " Apellido: " . $nombre2 . " Teléfono: " . $numContacto . "\nCorreo electrónico: " . $correo . "\nMensaje: " . $mensaje;
+  $contenido = "Nombre: " . $nombre1 . " Apellido: " . $nombre2 . "\nTelefono: " . $numContacto . "\nCorreo electronico: " . $correo . "\nMensaje: " . $mensaje;
 
   $header = "From: " . $correo . "\r\n";
   $header .= "Reply-To: " . $correo . "\r\n";
