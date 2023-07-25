@@ -599,3 +599,11 @@ encabezado de servicios
 .mail-send {
   top: 50px !important;
 }
+
+/*------------------------------------------------
+Tarjeta de Productos en template
+----------------------------------------------------*/
+.img {
+  border-radius: 10px; /* Puedes ajustar el valor del radio según la curvatura deseada */
+  overflow: hidden; /* Para asegurar que la imagen se ajuste correctamente al radio */
+}
