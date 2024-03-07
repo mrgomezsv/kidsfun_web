@@ -181,7 +181,7 @@ home section
 .home::after {
   content: "";
   position: absolute;
-  background-image: url("../img/banerV2.png");
+  background-image: url("../img/home/banerV2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
